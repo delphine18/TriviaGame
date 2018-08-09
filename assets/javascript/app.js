@@ -1,10 +1,11 @@
 // To initialize the .js file
 $( document ).ready(function() {
-
+	$('#finished').hide()
 // To start the game 
 	$(".startQuiz").on("click", function (){
 				$('.container').show();
 				$(".startQuiz").hide();
+				$('#finished').show()
 			});
 
 
@@ -126,6 +127,7 @@ function answered(question){
 	stop();
 	$('#finished').hide()
 	$('.container').hide()
+	$(".startQuiz").hide();
 	$("#message").html("All Done!!");
 	})
 });
