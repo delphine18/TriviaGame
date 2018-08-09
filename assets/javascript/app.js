@@ -24,9 +24,11 @@ $( document ).ready(function() {
 		stop();
 		$('#message').html('Time is up!');
 		checkAnswers();
+		$('.container').hide();
+		$(".startQuiz").hide();
+		$('#finished').hide()
 		}	
 	};
-
 
 
 	function stop(){
