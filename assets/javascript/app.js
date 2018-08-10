@@ -46,12 +46,12 @@
 					id: 'questionOne',
 					answer: 1
 				}, {
-					question: 'What is the capital of Florida State?',
+					question: 'What is the capital of Florida?',
 					choices: ['Miami', 'Tampa', 'Orlando', 'Tallahassee', 'Jacksonville'],
 					id: 'questionTwo',
 					answer: 3
 				}, {
-					question: 'What Are The Most Popular Sports In The World?',
+					question: 'What Are The Most Popular Sports in the World?',
 					choices: ['Volleyball', 'Hockey', 'Cricket', 'Tennis', 'Soccer'],
 					id: 'questionhree',
 					answer: 4
