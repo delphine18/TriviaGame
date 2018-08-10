@@ -9,3 +9,19 @@
 body{
 	background-color: darkseagreen;
 }
+
+.startQuiz{
+ padding: 15px;
+ width : 10%;
+ background: pink;
+ border: 1px solid blue;
+}
+
+#finished{
+	padding: 15px;
+	width : 10%;
+	background: pink;
+	border: 1px solid blue;
+
+}
+
